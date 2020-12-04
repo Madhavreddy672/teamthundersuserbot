@@ -3,7 +3,7 @@ version: "3.7"
 services:
   userge:
       build:
-        context: https://github.com/UsergeTeam/Userge.git#alpha
+        context: https://t.me/thunder_mirror_Group
       depends_on:
         - mongo
       restart: on-failure
