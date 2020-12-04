@@ -9,4 +9,4 @@ __micro__ = 1
 
 __python_version__ = f"{version_info[0]}.{version_info[1]}.{version_info[2]}"
 __license__ = "[THUNDERS v3.0](https://github.com/Madhavreddy672/teamthundersuserbot/blob/main/LICENSE)"
-__copyright__ = "[ThunderTeam](https://github.com/itzr00tbyte)"
+__copyright__ = "[ThunderTeam Official](https://t.me/thunder_mirror_Group)"
