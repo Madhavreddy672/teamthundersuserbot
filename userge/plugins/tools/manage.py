@@ -1,4 +1,4 @@
-""" manage your userge :) """
+""" manage your Thunder bot:) """
 
 # Copyright (C) 2020 by UsergeTeam@Github, < https://github.com/UsergeTeam >.
 #
