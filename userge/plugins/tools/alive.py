@@ -1,10 +1,4 @@
-# Copyright (C) 2020 by UsergeTeam@Github, < https://github.com/UsergeTeam >.
-#
-# This file is part of < https://github.com/UsergeTeam/Userge > project,
-# and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/uaudith/Userge/blob/master/LICENSE >
-#
-# All rights reserved.
+
 
 import re
 import asyncio
@@ -40,20 +34,20 @@ async def alive(message: Message):
             _set_data(True)
     markup = None
     output = f"""
-**⏱ uptime** : `{userge.uptime}`
-**💡 version** : `{get_version()}`
-**⚙️ mode** : `{_get_mode().upper()}`
+**⏱ uptime** : **{userge.uptime}**
+**💡 version** : **{get_version()}**
+**⚙️ mode** : **{_get_mode().upper()}**
 
-• **sudo**: `{_parse_arg(Config.SUDO_ENABLED)}`
-• **pm-guard**: `{_parse_arg(not Config.ALLOW_ALL_PMS)}`
-• **anti-spam**: `{_parse_arg(Config.ANTISPAM_SENTRY)}`"""
+• **sudo**: {_parse_arg(Config.SUDO_ENABLED)}
+• **pm-guard**: {_parse_arg(not Config.ALLOW_ALL_PMS)}
+• **anti-spam**: {_parse_arg(Config.ANTISPAM_SENTRY)}
     if Config.HEROKU_APP:
         output += f"\n• **dyno-saver**: `{_parse_arg(Config.RUN_DYNO_SAVER)}`"
     output += f"""
-• **unofficial**: `{_parse_arg(Config.LOAD_UNOFFICIAL_PLUGINS)}`
+• **unofficial**: {_parse_arg(Config.LOAD_UNOFFICIAL_PLUGINS)}
 
-    **__Python__**: `{versions.__python_version__}`
-    **__Pyrogram__**: `{versions.__pyro_version__}`"""
+    **__Python__**: {versions.__python_version__}
+    **__Pyrogram__**: {versions.__pyro_version__}
     if not message.client.is_bot:
         output += f"""\n
 🎖 **{versions.__license__}** | 👥 **{versions.__copyright__}** | 👉 **{versions.__repo__}**
