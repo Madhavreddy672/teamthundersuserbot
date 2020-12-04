@@ -22,7 +22,7 @@ from userge.utils import get_file_id_and_ref
 
 _LOG = logging.getLogger(__name__)
 _IS_STICKER = False
-_DEFAULT = "https://telegra.ph/Team-Thunders-12-04"
+_DEFAULT = "https://t.me/jdjejixxixj/1302"
 _CHAT, _MSG_ID = None, None
 _LOGO_ID, _LOGO_REF = None, None
 
