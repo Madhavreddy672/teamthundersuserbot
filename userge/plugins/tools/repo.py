@@ -20,6 +20,6 @@ async def see_repo(message: Message):
 • **userge version** : `{get_version()}`
 • **license** : {versions.__license__}
 • **copyright** : {versions.__copyright__}
-• **repo** : [Userge]({Config.UPSTREAM_REPO})
+• **repo** : {versions.__repo__}
 """
     await message.edit(output)
