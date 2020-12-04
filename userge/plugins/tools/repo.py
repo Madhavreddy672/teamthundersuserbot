@@ -13,7 +13,7 @@ from userge import userge, Message, Config, versions, get_version
 async def see_repo(message: Message):
     """see repo"""
     output = f"""
-**Hey**, __I am using__ 🔥 **Userge** 🔥
+**Hey**, __I am using__ 🔥 **Thunder** 🔥
 
     __Durable as a Serge__
 
