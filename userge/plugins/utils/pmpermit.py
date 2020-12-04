@@ -20,9 +20,9 @@ ALLOWED_COLLECTION = get_collection("PM_PERMIT")
 
 pmCounter: Dict[int, int] = {}
 allowAllFilter = filters.create(lambda _, __, ___: Config.ALLOW_ALL_PMS)
-noPmMessage = bk_noPmMessage = ("Hello {fname} this is an automated message\n"
+noPmMessage = bk_noPmMessage = ("**Hello {fname} this is an automated message\n"
                                 "Please wait until you get approved to direct message "
-                                "And please dont spam until then ")
+                                "And please dont spam until then**")
 blocked_message = bk_blocked_message = "**You were automatically blocked**"
 
 
@@ -228,7 +228,7 @@ async def uninvitedPmHandler(message: Message):
     else:
         pmCounter.update({message.from_user.id: 1})
         await message.reply(
-            noPmMessage.format_map(SafeDict(**user_dict)) + '\n`- Protected by Team Thunders`')
+            noPmMessage.format_map(SafeDict(**user_dict)) + '\n **- Protected by Team Thunders**')
         await asyncio.sleep(1)
         await CHANNEL.log(f"#NEW_MESSAGE\n{user_dict['mention']} has messaged you")
 
