@@ -1,6 +1,6 @@
 <p align="center">
-    <a href="https://github.com/UsergeTeam/Userge">
-        <img src="resources/userge.png" alt="Userge">
+    <a href="https://github.com/MadhavReddy672">
+        <img src="resources/userge.jpg" alt="thunders">
     </a>
     <br>
     <b>Pluggable Telegram UserBot</b>
@@ -18,7 +18,7 @@
     <a href="https://github.com/UsergeTeam/Userge#copyright--license-">Copyright & License</a>
 </p>
 
-# Userge 🔥
+# Thunder Bot 🔥
 
 [![Build Status](https://travis-ci.com/UsergeTeam/Userge.svg?branch=alpha)](https://travis-ci.com/UsergeTeam/Userge)
 ![Python Version](https://img.shields.io/badge/python-3.8-lightgrey)
@@ -38,7 +38,7 @@
 [![DeepSource](https://static.deepsource.io/deepsource-badge-light-mini.svg)](https://deepsource.io/gh/UsergeTeam/Userge/?ref=repository-badge)
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/UsergeTeam/Userge)
 
-> **Userge** is a Powerful , _Pluggable_ Telegram UserBot written in _Python_ using [Pyrogram](https://github.com/pyrogram/pyrogram).
+> **Thunder** is a Powerful , _Pluggable_ Telegram UserBot written in _Python_ using [Pyrogram](https://github.com/pyrogram/pyrogram).
 
 ## Inspiration 😇
 
@@ -70,32 +70,7 @@
 * Easy to add / port Plugins
 * Easy to write modules with the modified client
 
-## Example Plugin 🤨
 
-```python
-from userge import userge, Message, filters
-
-LOG = userge.getLogger(__name__)  # logger object
-CHANNEL = userge.getCLogger(__name__)  # channel logger object
-
-# add command handler
-@userge.on_cmd("test", about="help text to this command")
-async def test_cmd(message: Message):
-   LOG.info("starting test command...")  # log to console
-   # some other stuff
-   await message.edit("testing...", del_in=5)  # this will be automatically deleted after 5 sec
-   # some other stuff
-   await CHANNEL.log("testing completed!")  # log to channel
-
-# add filters handler
-@userge.on_filters(filters.me & filters.private)  # filter my private messages
-async def test_filter(message: Message):
-   LOG.info("starting filter command...")
-   # some other stuff
-   await message.reply(f"you typed - {message.text}", del_in=5)
-   # some other stuff
-   await CHANNEL.log("filter executed!")
-```
 
 ## Requirements 🥴
 
@@ -128,7 +103,7 @@ async def test_filter(message: Message):
 * With Git, Python and pip 🔧
   ```bash
   # clone the repo
-  git clone https://github.com/UsergeTeam/Userge.git
+  git clone https://github.com/Madhavreddy672/teamthundersuserbot.git
   cd Userge
 
   # create virtualenv
@@ -156,19 +131,9 @@ async def test_filter(message: Message):
 
 ### Support & Discussions 👥
 
-> Head over to the [Discussion Group](https://t.me/usergeot) and [Update Channel](https://t.me/theUserge)
-
-### Project Credits 💆‍♂️
-
-* [Specially to these projects](https://github.com/UsergeTeam/Userge#inspiration-) 🥰
-* [@uaudIth](https://t.me/uaudIth)
-* [@K_E_N_W_A_Y](https://t.me/K_E_N_W_A_Y)
-* [@nawwasl](https://t.me/nawwasl)
-* [@TharukaN97](https://t.me/TharukaN97)
-* [@Supun97](https://t.me/Supun97)
-* [@gotstc](https://t.me/gotstc)
+> Head over to the [Discussion Group](https://t.me/madhav_reddy) and [Update Channel](https://t.me/theUserge)
 
 ### Copyright & License 👮
 
-* Copyright (C) 2020 by [UsergeTeam](https://github.com/UsergeTeam) ❤️️
+* Copyright (C) 2020 by [ThunderTeam](https://github.com/MadhavReddy672) ❤️️
 * Licensed under the terms of the [GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007](https://github.com/UsergeTeam/Userge/blob/master/LICENSE)
