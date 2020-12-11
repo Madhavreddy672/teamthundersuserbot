@@ -3,7 +3,7 @@
         <img src="resources/userge.jpg" alt="thunders">
     </a>
     <br>
-    <b>Pluggable Telegram UserBot</b>
+    <b>Powerful Telegram UserBot</b>
     <br>
     <a href="https://github.com/UsergeTeam/Userge#inspiration-">Inspiration</a>
     &nbsp•&nbsp
@@ -38,7 +38,7 @@
 [![DeepSource](https://static.deepsource.io/deepsource-badge-light-mini.svg)](https://deepsource.io/gh/UsergeTeam/Userge/?ref=repository-badge)
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/UsergeTeam/Userge)
 
-> **Thunder** is a Powerful , _Pluggable_ Telegram UserBot written in _Python_ using [Pyrogram](https://github.com/pyrogram/pyrogram).
+> **Thunder** is a Powerful , _Powerful_ Telegram UserBot written in _Python_ using [Pyrogram](https://github.com/pyrogram/pyrogram).
 
 ## Inspiration 😇
 
@@ -79,7 +79,7 @@
 * Google Drive [API Keys](https://console.developers.google.com/)
 * MongoDB [Database URL](https://cloud.mongodb.com/)
 
-## UserGe MODES 🕹
+## THUNDER MODES 🕹
 
 * **USER** mode `(using user account)`
 * **BOT** mode `(using bot account)`
