@@ -6,5 +6,7 @@
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
-https://heroku.com/deploy?template=https://github.com/Madhavreddy672/teamthundersuserbot/tree/master
-/p>
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/Madhavreddy672/teamthundersuserbot/tree/master)
+
+
