@@ -95,7 +95,7 @@ if userge.has_bot:
             else:
                 user_dict = await userge.bot.get_user_dict(Config.OWNER_ID)
                 await c_q.answer(
-                    f"Only {user_dict['flname']} Can Access this...! Build Your Own @TheUserge 🤘",
+                    f"Only {user_dict['flname']} Can Access this...! Build Your Own bro 🤘",
                     show_alert=True)
         return wrapper
 
@@ -351,21 +351,21 @@ if userge.has_bot:
                 id=uuid4(),
                 title="Repo",
                 input_message_content=InputTextMessageContent(
-                    "**Here's how to setup Userge** 😎"
+                    "**Here's how to setup Thunder** 😎"
                 ),
-                url="https://github.com/UsergeTeam/Userge",
+                url="https://github.com/Madhavreddy672/teamthundersuserbot",
                 description="Setup Your Own",
                 thumb_url="https://imgur.com/download/Inyeb1S",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton(
-                                "🧰 Userge Repo",
-                                url="https://github.com/UsergeTeam/Userge"),
+                                "🧰 Thunders Repo",
+                                url="https://github.com/Madhavreddy672/teamthundersuserbot"),
                             InlineKeyboardButton(
-                                "🖥 Deploy Userge",
+                                "🖥 Deploy Thunder",
                                 url=("https://heroku.com/deploy?template="
-                                     "https://github.com/UsergeTeam/Userge/tree/master"))
+                                     "https://github.com/Madhavreddy672/teamthundersuserbot"))
                         ]
                     ]
                 )
@@ -377,7 +377,7 @@ if userge.has_bot:
                     id=uuid4(),
                     title="Main Menu",
                     input_message_content=InputTextMessageContent(
-                        "🖥 **Userge Main Menu** 🖥"
+                        "🖥 **Thunder Main Menu** 🖥"
                     ),
                     url="https://github.com/UsergeTeam/Userge",
                     description="Userge Main Menu",
