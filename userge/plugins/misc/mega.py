@@ -35,8 +35,11 @@ async def subprocess_run(megadl, cmd):
     return stdout.decode().strip(), stderr.decode().strip(), exitCode
 
 
-@bot.on(admin_cmd(outgoing=True, pattern=r"mega(?: |$)(.*)"))
-@bot.on(sudo_cmd(allow_sudo=True, pattern=r"mega(?: |$)(.*)"))
+@userge.on_cmd("mega", about={
+    'header': "DOWNLOAd files from mega",
+    'usage': "mega [link]"})
+
+
 async def mega_downloader(megadl):
     catevent = await edit_or_reply(megadl, "`Collecting information...`")
     if not os.path.isdir(TMP_DOWNLOAD_DIRECTORY):
