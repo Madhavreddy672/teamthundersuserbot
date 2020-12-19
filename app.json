@@ -1,6 +1,6 @@
 {
-    "name": "Userge",
-    "description": "telegram pluggable userbot",
+    "name": "Thunder",
+    "description": "thunder userbot",
     "logo": "https://imgur.com/download/Inyeb1S",
     "keywords": [
         "userge",
@@ -8,9 +8,9 @@
         "pluggable",
         "userbot"
     ],
-    "repository": "https://github.com/UsergeTeam/Userge",
-    "website": "https://github.com/Userge",
-    "success_url": "https://t.me/theUserge",
+    "repository": "https://github.com/Madhavreddy672/teamthundersuserbot",
+    "website": "https://github.com/Madhavreddy672/teamthundersuserbot",
+    "success_url": "https://github.com/Madhavreddy672/teamthundersuserbot",
     "env": {
         "API_ID": {"description": "Get this value from https://my.telegram.org"},
         "API_HASH": {"description": "Get this value from https://my.telegram.org"},
